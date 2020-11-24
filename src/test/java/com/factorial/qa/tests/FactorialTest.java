@@ -83,7 +83,6 @@ public class FactorialTest extends TestBase {
 	 public void verifyConditionsLinkTest() throws InterruptedException 
 	  {
 		fp.conditionsLink.click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		String errMsg = fp.clickOnPrivacyLink();
 		System.out.println(errMsg);
 		Assert.assertEquals(errMsg,tu.conditiondLinkUrl);
@@ -94,7 +93,6 @@ public class FactorialTest extends TestBase {
 	 public void verifyPrivacyLinkTest() throws InterruptedException 
 	  {
 		fp.privacyLink.click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		String errMsg = fp.clickOnPrivacyLink();
 		System.out.println(errMsg);
 		Assert.assertEquals(errMsg,tu.privacyLinkUrl);
