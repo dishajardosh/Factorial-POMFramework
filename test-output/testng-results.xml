@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity Test Suite" duration-ms="21735" started-at="2020-11-24T12:46:59 EST" finished-at="2020-11-24T12:47:21 EST">
+    <groups>
+      <group name="SanityTest">
+        <method signature="FactorialTest.verifyConditionsLinkTest()[pri:6, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="verifyConditionsLinkTest" class="com.factorial.qa.tests.FactorialTest"/>
+        <method signature="FactorialTest.verifyPrivacyLinkTest()[pri:7, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="verifyPrivacyLinkTest" class="com.factorial.qa.tests.FactorialTest"/>
+        <method signature="FactorialTest.verifyTitle()[pri:1, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="verifyTitle" class="com.factorial.qa.tests.FactorialTest"/>
+      </group> <!-- SanityTest -->
+    </groups>
+    <test name="Sanity Test Run for factorial Test" duration-ms="21735" started-at="2020-11-24T12:46:59 EST" finished-at="2020-11-24T12:47:21 EST">
+      <class name="com.factorial.qa.tests.FactorialTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="beforeMethod" is-config="true" duration-ms="7799" started-at="2020-11-24T12:46:59 EST" finished-at="2020-11-24T12:47:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="verifyTitle" duration-ms="12" started-at="2020-11-24T12:47:07 EST" finished-at="2020-11-24T12:47:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="afterMethod" is-config="true" duration-ms="1247" started-at="2020-11-24T12:47:07 EST" finished-at="2020-11-24T12:47:09 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="beforeMethod" is-config="true" duration-ms="5136" started-at="2020-11-24T12:47:09 EST" finished-at="2020-11-24T12:47:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyConditionsLinkTest()[pri:6, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="verifyConditionsLinkTest" duration-ms="189" started-at="2020-11-24T12:47:14 EST" finished-at="2020-11-24T12:47:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConditionsLinkTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="afterMethod" is-config="true" duration-ms="1262" started-at="2020-11-24T12:47:14 EST" finished-at="2020-11-24T12:47:15 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="beforeMethod" is-config="true" duration-ms="4658" started-at="2020-11-24T12:47:15 EST" finished-at="2020-11-24T12:47:20 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyPrivacyLinkTest()[pri:7, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="verifyPrivacyLinkTest" duration-ms="133" started-at="2020-11-24T12:47:20 EST" finished-at="2020-11-24T12:47:20 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrivacyLinkTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.factorial.qa.tests.FactorialTest@646d64ab]" name="afterMethod" is-config="true" duration-ms="1248" started-at="2020-11-24T12:47:20 EST" finished-at="2020-11-24T12:47:21 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.factorial.qa.tests.FactorialTest -->
+    </test> <!-- Sanity Test Run for factorial Test -->
+  </suite> <!-- Sanity Test Suite -->
+</testng-results>
