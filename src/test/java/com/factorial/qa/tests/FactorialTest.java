@@ -32,6 +32,7 @@ public class FactorialTest extends TestBase {
 		 closeBrowser();
 	  }
 	
+	// This test verifies Title of the page
 	@Test (priority=1, groups= {"SanityTest"})
 	 public void verifyTitle() throws InterruptedException 
 	  {		 
@@ -39,6 +40,7 @@ public class FactorialTest extends TestBase {
 		Assert.assertEquals(title,tu.title);			
 	  }
 	
+	// This test verify the text present in the number text box
 	@Test (priority=2)
 	 public void verifyText() throws InterruptedException 
 	  {
@@ -47,6 +49,7 @@ public class FactorialTest extends TestBase {
 		Assert.assertEquals(fp.number.getAttribute("placeholder"), tu.text1);
 	  }
 	
+	//This test verify web element  Calculate button present on the page or not
 	@Test (priority=3)
 	 public void verifyButton() throws InterruptedException 
 	  {
@@ -56,6 +59,7 @@ public class FactorialTest extends TestBase {
 		
 	  }
 	 
+	// This test verifies error message when user clicks on calculate button w/o entering integer in text box
 	@Test (priority=4)
 	 public void verifyError() throws InterruptedException 
 	  {
@@ -63,6 +67,7 @@ public class FactorialTest extends TestBase {
 		Assert.assertEquals(fp.validateErrorMsg(),tu.error);
 	  }
 	
+	// this test verifies result of the factorial calculator
 	@Test (priority=5)
 	 public void verifyOutput1() throws InterruptedException 
 	  {
@@ -73,6 +78,7 @@ public class FactorialTest extends TestBase {
 		Assert.assertEquals(resultTest,tu.output);
 	  }
 	
+	// This test verifies 'Terms&conditions' link works 
 	@Test (priority=6,groups= {"SanityTest"})
 	 public void verifyConditionsLinkTest() throws InterruptedException 
 	  {
@@ -83,6 +89,7 @@ public class FactorialTest extends TestBase {
 		Assert.assertEquals(errMsg,tu.conditiondLinkUrl);
 	  }
 	
+	// This test verifies 'Privacy' link works 
 	@Test (priority=7,groups= {"SanityTest"})
 	 public void verifyPrivacyLinkTest() throws InterruptedException 
 	  {
